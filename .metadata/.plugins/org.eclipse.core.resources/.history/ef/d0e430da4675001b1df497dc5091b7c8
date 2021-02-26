@@ -1,0 +1,50 @@
+package variaveis;
+
+import javax.swing.JOptionPane;
+
+public class TiposDados {
+
+	public static void main(String[] args) {
+		
+		String nome = JOptionPane.showInputDialog("Digite o seu nome");
+
+		int idade = Integer.parseInt(JOptionPane.showInputDialog("Digite a sua idade"));
+		double altura =
+				Double.parseDouble(JOptionPane.showInputDialog("Digite a altura"));
+		double peso =
+				Double.parseDouble(JOptionPane.showInputDialog("Digite seu peso"));
+		System.out.print("Nome: " + nome);
+		System.out.print("Idade: " + idade + " anos ");
+		System.out.print("Altura: " + altura + "m");
+		System.out.print("Peso: "+ peso + "kg");
+		
+		
+		// Peçam o peso
+		// Criar uma variavel chamada IMC (fazer calculo)
+		// Exibir IMC
+		
+		/* 
+		 * Alfanumérico: é um dado que você não utiliza em operaçoes aritméticas. 
+		 * CEP: 00010-009 => 00010-009
+		 * String representa um dado alfanumérico no Java
+		 * 
+		 * Numérico: é o dado que pode ser utilizado em operações aritméticas.
+		 * CEP: 00010-009 => 1
+		 * Dois tipos:
+		 * - Inteiro em Java é int
+		 * - Real em Java é double
+		 * 
+		 * Número não precisa usar aspas
+		 * Altura é ponto e não vírgula 
+		 * 
+		 * 
+		*/ 
+		
+		
+		
+		
+		
+		
+		
+	}
+}

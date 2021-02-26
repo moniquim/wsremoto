@@ -1,0 +1,31 @@
+package variaveis;
+
+public class TipoString {
+
+	public static void main(String[] args) {
+		
+		//String é um tipo de referência 
+		String email = "mOnIca.LiMa.aEs@gmail.com";	
+		
+		System.out.println("Original: " + email);
+		System.out.println("Minusculo: " + email.toLowerCase());
+		System.out.println("Maiusculo: " + email.toUpperCase());
+		System.out.println("Qntd Caracteres: " + email.length ());
+		System.out.println("Tem arroba?: " + email.contains("@"));
+		System.out.println("Posiçao do @: " + email.indexOf("@"));
+		System.out.println("Exibir do 3º ao 5º: " + email.substring(2,5));
+		System.out.println("Exibir do 5º até o fim: " + email.substring(4));
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
